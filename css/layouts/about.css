@@ -1,0 +1,42 @@
+.about {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.about > .row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 14rem;
+
+  position: relative;
+}
+
+.about .startup,
+.about .questions {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.about .about-title {
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+@media screen and (max-width: 900px) {
+  .about {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .about > .row {
+    flex-direction: column;
+    text-align: center;
+
+    row-gap: 5rem;
+  }
+
+  .about .startup,
+  .about .questions {
+    row-gap: 2rem;
+  }
+}

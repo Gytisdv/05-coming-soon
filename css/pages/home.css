@@ -1,0 +1,24 @@
+/* base */
+@import '../base/base.css';
+@import '../base/breakpoints.css';
+
+/* layouts */
+@import '../layouts/hero.css';
+@import '../layouts/about.css';
+@import '../layouts/footer.css';
+/* 3rd-party */
+
+/* components */
+@import '../components/button.css';
+@import '../components/clock.css';
+@import '../components/form.css';
+@import '../components/mouse.css';
+@import '../components/progress-bar.css';
+
+/* CUSTOM STYLES GOES BELOW THIS COMMENT LINE */
+.highlight,
+.highlight:link,
+.highlight:visited {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
